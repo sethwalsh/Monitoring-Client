@@ -1,0 +1,16 @@
+﻿  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Data.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "public: __cdecl boost::system::error_code::error_code(void)" (??0error_code@system@boost@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)" (??__Eerrno_ecat@system@boost@@YAXXZ)
+C:\boost\boost_1_60_0\stage\lib\libboost_system-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\boost\boost_1_60_0\stage\lib\libboost_date_time-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\boost\boost_1_60_0\stage\lib\libboost_regex-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\boost\boost_1_60_0\stage\lib\libboost_thread-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\boost\boost_1_60_0\stage\lib\libboost_chrono-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\boost\boost_1_60_0\stage\lib\libboost_program_options-vc140-mt-gd-1_60.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+G:\MonitoringClient\x64\Debug\MonitoringClient.exe : fatal error LNK1120: 2 unresolved externals

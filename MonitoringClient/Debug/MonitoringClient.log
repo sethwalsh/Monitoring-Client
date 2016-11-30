@@ -1,0 +1,23 @@
+﻿  NetClient.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  Data.cpp
+g:\monitoringclient\monitoringclient\data.cpp(20): warning C4244: 'argument': conversion from 'uint16_t' to 'const unsigned char', possible loss of data
+  Client.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+g:\monitoringclient\monitoringclient\client.cpp(96): warning C4018: '<': signed/unsigned mismatch
+g:\monitoringclient\monitoringclient\client.cpp(178): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+g:\monitoringclient\monitoringclient\client.cpp(322): warning C4700: uninitialized local variable 'PACKET_' used
+  MonitoringClient.vcxproj -> G:\MonitoringClient\Debug\MonitoringClient.exe
+  MonitoringClient.vcxproj -> G:\MonitoringClient\Debug\MonitoringClient.pdb (Full PDB)
